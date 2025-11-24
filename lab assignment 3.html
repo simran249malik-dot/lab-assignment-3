@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simran Malik Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container header-container">
+        <div class="logo">My Portfolio</div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="hero-section">
+          <div class="hero-content">
+            <h1>Hi, I am</h1>
+            <h1 class="animated-text">Full Stack Developer</h1>
+            <p>Building modern web applications with HTML and CSS.</p>
+          </div>
+          <div class="hero-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb6wJdcZYYRKnBcXRdWnC9ozjER-cnRqe5RA&s"alt="Simran Malik" />
+          </div>
+        </section>
+      </div>
+
+      <section id="about">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>
+            Hello! My name is Simran Malik. I am passionate about learning web
+            development. This is my responsive portfolio website designed using
+            Flexbox and CSS Grid. I love solving problems and creating interactive
+            web experiences.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="container">
+          <h2>Technical Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>HTML</h3>
+              <p>Beginner</p>
+            </div>
+            <div class="skill-card">
+              <h3>CSS</h3>
+              <p>Beginner</p>
+            </div>
+            <div class="skill-card">
+              <h3>JavaScript</h3>
+              <p>Learning</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="container">
+          <h2>My Projects</h2>
+          <div class="projects-container">
+            
+            <div class="project-fader">
+              <article class="project-card">
+                <div class="browser-header">
+                  <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                </div>
+                <div class="image-window">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY5uE5mhd48Zfx1X1tCyR1SUK8R_iqk_gUnA&s" alt="project 1" />
+                </div>
+                <div class="project-info">
+                  <h3>Boolean Evaluator</h3>
+                  <p>A tool to evaluate complex boolean expressions.</p>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="browser-header">
+                  <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                </div>
+                <div class="image-window">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRz8jDUBVKM57YZnW_nFCDkUdDRixI5xOnIA&s" alt="project 2" />
+                </div>
+                <div class="project-info">
+                  <h3>Data Encryptor</h3>
+                  <p>Secure your data with advanced encryption algorithms.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="project-fader">
+              <article class="project-card">
+                <div class="browser-header">
+    <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                </div>
+                <div class="image-window">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoZxuVSIa18CaY5gOCf35XcoGdmNFw4wio9w&s" alt="project" />
+                </div>
+                <div class="project-info">
+                  <h3>Basic Calculator</h3>
+                  <p>A standard calculator for everyday math operations.</p>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="browser-header">
+                  <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                </div>
+                <div class="image-window">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtvekIpPcnsvnWnWUbE42Che6lWn4Nk5AFMQ&s" alt="project" />
+                </div>
+                <div class="project-info">
+                  <h3>Calorie Tracker</h3>
+                  <p>A tool to keep track of your everyday calorie intake.</p>
+                </div>
+              </article>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <form action="#" method="post" class="contact-form">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input id="name" type="text" placeholder="Enter your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input id="email" type="email" placeholder="Enter your email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" placeholder="Enter your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-block">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2025 AKSHAY kumar. All rights reserved.</p>
+      <a href="#" class="back-to-top">Back to Top</a>
+    </footer>
+  </body>
+</html>
